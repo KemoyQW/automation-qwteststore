@@ -1,0 +1,25 @@
+{
+  "name": "automatedtesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio/conf.js"
+  },
+  "author": "Kemoy",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/local-runner": "^6.10.13",
+    "@wdio/mocha-framework": "^6.10.11",
+    "@wdio/selenium-standalone-service": "^6.10.11",
+    "@wdio/spec-reporter": "^6.10.6",
+    "@wdio/sync": "^6.10.11",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "local-runner": "^0.1.1-alpha",
+    "webdriverio": "^6.10.11"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.10.11"
+  }
+}
