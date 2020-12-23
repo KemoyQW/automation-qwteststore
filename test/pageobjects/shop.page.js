@@ -1,5 +1,3 @@
-const Page = require('./page');
-
 class ShopPage extends Page{
 
     get parent() { return $('div.stackable') }
