@@ -7,9 +7,10 @@ class LoginPage extends Page {
     /**
      * define selectors using getter methods
      */
-    get inputUsername () { return $('#username') }
+    get inputUsername () { return $('#email') }
     get inputPassword () { return $('#password') }
     get btnSubmit () { return $('button[type="submit"]') }
+    get myAccountTab () { return $('*=My') }
 
     /**
      * a method to encapsule automation code to interact with the page
