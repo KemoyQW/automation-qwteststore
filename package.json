@@ -17,6 +17,7 @@
     "chai": "^4.2.0",
     "chai-webdriverio": "^1.0.0",
     "local-runner": "^0.1.1-alpha",
+    "wdio-mochawesome-reporter": "^4.0.0",
     "webdriverio": "^6.10.11"
   },
   "dependencies": {
