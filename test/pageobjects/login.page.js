@@ -14,7 +14,7 @@ class LoginPage extends Page {
     get noPasswordPrompt () { return $('p=Password is required') }
     get noEmailPrompt () { return $('p=Email address is required') }
     get myAccountTab () { return $('*=My') }
-    /**`
+
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
